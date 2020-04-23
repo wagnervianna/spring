@@ -11,6 +11,8 @@ import com.yourname.demo.model.Student;
 @Repository("mongoDbDao" )
 public class MongoDbStudentDaoImpl implements StudentDao{
 
+	private String test = "";
+	
 	@Override
 	public int insertNewStudent(UUID studentId, Student student) {
 		// TODO Auto-generated method stub
